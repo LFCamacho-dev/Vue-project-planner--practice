@@ -24,7 +24,7 @@
                     details: this.details,
                     complete: false,
                 }
-                console.log(newProject);
+                // console.log(newProject);
 
                 fetch('http://localhost:3000/projects', {
                     method: 'POST',
