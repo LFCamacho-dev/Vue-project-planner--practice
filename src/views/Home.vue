@@ -1,5 +1,8 @@
 <template>
   <div class="home">
+
+
+
     <div v-if="projects.length">
 
       <div v-for="project in projects" :key="project.id">
@@ -7,12 +10,16 @@
       </div>
       
     </div>
+
+
+
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import SingleProject from '../components/SingleProject.vue'
+
 
 
 export default {

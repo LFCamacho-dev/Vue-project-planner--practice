@@ -11,6 +11,12 @@
       "title": "Make marketing email",
       "details": "Lorem ipsum",
       "complete": true
+    },
+    {
+      "title": "Publish website!",
+      "details": "on da cloud :))",
+      "complete": true,
+      "id": 3
     }
   ]
 }
